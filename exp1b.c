@@ -3,13 +3,10 @@
 void main()
 {
 	
-	float a,b,c;
-	printf("enter two numbers:");
-	scanf("%f %f",&a,&b);
-	c=a+b;
-	printf("value of addition is:%f\n",c);
-	printf("value of subtraction is:%f\n",a-b);
-	printf("value of multiplication is:%f\n",a*b);
-	printf("value of division:%f\n",a/b);
+	float f,c;
+	printf("enter temprature in c:");
+	scanf("%f",&c);
+	f=(c*1.8)+32;
+	printf("temprature in farenhite is:%f",f);
 	getch();
 } 
